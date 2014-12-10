@@ -26,7 +26,16 @@ public class MainActivity extends ActionBarActivity {
                     "ok",
                     Toast.LENGTH_LONG
 
-            ).show();        }
+            ).show();
+
+            Toast.makeText(
+                    this,
+                    "bye",
+                    Toast.LENGTH_LONG
+
+            ).show();
+
+        }
     }
 
 
