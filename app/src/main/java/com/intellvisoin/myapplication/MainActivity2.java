@@ -1,9 +1,10 @@
 package com.intellvisoin.myapplication;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class MainActivity2 extends ActionBarActivity {
@@ -12,6 +13,7 @@ public class MainActivity2 extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activity2);
+        TextView text=new TextView(this);
     }
 
 
